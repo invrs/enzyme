@@ -7,7 +7,7 @@ import ReactDOMServer from 'react-dom/server';
 import ShallowRenderer from 'react-test-renderer/shallow';
 // eslint-disable-next-line import/no-unresolved, import/extensions
 import TestUtils from 'react-dom/test-utils';
-import { EnzymeAdapter } from 'enzyme';
+import { EnzymeAdapter } from '@invrs/enzyme';
 import {
   elementToTree,
   nodeTypeFromType,
