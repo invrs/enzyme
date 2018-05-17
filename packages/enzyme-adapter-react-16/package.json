@@ -1,5 +1,5 @@
 {
-  "name": "enzyme-adapter-react-16",
+  "name": "@invrs/enzyme-adapter-react-16",
   "version": "1.1.1",
   "description": "JavaScript Testing utilities for React",
   "homepage": "http://airbnb.io/enzyme/",
@@ -11,7 +11,7 @@
     "prebuild": "npm run clean",
     "build": "babel src --out-dir build",
     "watch": "npm run build -- -w",
-    "prepublish": "npm run build && safe-publish-latest"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
